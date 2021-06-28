@@ -51,7 +51,7 @@ header .navbar-scrolled {
 header .navbar-scrolled a {
     color: black;
     /* transition: 0.3s; */
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 /* header .navbar-scrolled #navbar-title {
@@ -87,10 +87,4 @@ header #banner #title h1, header #banner #title p {
     padding: 0;
     margin: 0;
 }
-
-/* header #banner #title p {
-    color: white;
-    padding: 0;
-    margin: 0;
-} */
 /* Banner */
