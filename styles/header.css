@@ -75,6 +75,11 @@ header #banner {
     text-align: center;
 }
 
+header #banner hr {
+    width: 600px;
+    color: white;
+}
+
 header #banner img {
     width: 400px;
     height: auto;

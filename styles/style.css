@@ -13,3 +13,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
+hr {
+    width: 90%;
+}

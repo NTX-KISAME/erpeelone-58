@@ -1,10 +1,19 @@
 footer {
-    margin-top: 6rem;
+    margin-top: 10rem;
     padding-top: 6rem;
     padding-bottom: 0.1rem;
     background-color: #181818;
     color: white;
     font-family: 'Roboto', sans-serif;
+}
+
+footer hr {
+    width: 99%;
+    color: #444444;
+}
+
+footer a:hover {
+    color: #494949;
 }
 
 footer .container .top {
@@ -15,10 +24,6 @@ footer .container .top {
 footer .container .top .side {
     margin-left: 6rem;
     margin-right: 6rem;
-}
-
-footer .container .top .side a:hover {
-    color: rgb(68, 68, 255);
 }
 
 footer .container .top .side hr {
@@ -49,9 +54,5 @@ footer .container .top .side form button {
 
 footer .container .bottom {
     text-align: center;
-}
-
-footer .container .bottom p a:hover {
-    color: rgb(68, 68, 255);
 }
 

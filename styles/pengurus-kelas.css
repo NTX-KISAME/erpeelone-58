@@ -2,13 +2,8 @@
     text-align: center;
 }
 
-#pengurus-kelas h2 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-}
-
 #pengurus-kelas .container {
-    margin: auto 5%;
+    margin: auto 4%;
     display: flex;
 }
 
@@ -32,7 +27,6 @@
 
 #pengurus-kelas .container .card .card-caption {
     padding: 1rem 1rem;
-    text-align: center; 
 }
 
 #pengurus-kelas .container .card .card-caption h4, #pengurus-kelas .container .card .card-caption p{
