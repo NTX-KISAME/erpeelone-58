@@ -73,7 +73,6 @@ header #banner {
     height: auto;
     padding-top: 2rem;
     text-align: center;
-    
 }
 
 header #banner img {
@@ -83,15 +82,15 @@ header #banner img {
     margin-bottom: 2rem;
 }
 
-header #banner #title h1 {
+header #banner #title h1, header #banner #title p {
     color: white;
     padding: 0;
     margin: 0;
 }
 
-header #banner #title p {
+/* header #banner #title p {
     color: white;
     padding: 0;
     margin: 0;
-}
+} */
 /* Banner */
