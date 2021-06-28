@@ -1,0 +1,106 @@
+header {
+    height: 37.8rem;
+    background-color: #181818;
+    background-image: url('/resources/home_banner.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Nav */
+header .navbar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: transparent;
+    transition: 0.3s;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header .navbar:hover {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.3s;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+header .navbar a {
+    color: white;
+    transition: 0.3s;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+header .navbar #navbar-title {
+    font-family: 'Staatliches', cursive;
+    font-size: larger;
+    margin-left: 10%;
+    margin-right: 40%;
+}
+
+header .navbar .navbar-navigations:hover {
+    color: salmon;
+}
+
+header .navbar-scrolled {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    transition: 0.3s;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header .navbar-scrolled a {
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 20px;
+}
+
+header .navbar-scrolled #navbar-title {
+    font-family: 'Staatliches', cursive;
+    font-size: larger;
+    margin-left: 10%;
+    margin-right: 40%;
+}
+
+header .navbar-scrolled .navbar-navigations:hover {
+    color: black;
+    background-color: #cfcfcf;
+}
+/* Nav */
+
+/* Banner */
+header #header {
+    width: 100%;
+    height: auto;
+    padding-top: 2rem;
+    text-align: center;
+    
+}
+
+header #header img {
+    width: 400px;
+    height: auto;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+header #header #title h1 {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header #header #title p {
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+/* Banner */
