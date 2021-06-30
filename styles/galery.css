@@ -1,7 +1,7 @@
 #galery .container {
     margin: 1rem 4rem;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 
 #galery .container img {
