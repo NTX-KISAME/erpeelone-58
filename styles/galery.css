@@ -25,8 +25,7 @@
 @media screen and (max-width: 600px) {
     #galery .container {
         margin: 0;
-        margin-top: 4px;
-        width: 90%;
+        margin: 12px 1rem;
     }
 
     #galery .container img {
