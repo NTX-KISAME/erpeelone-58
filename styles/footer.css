@@ -1,6 +1,5 @@
 footer {
     margin-top: 10rem;
-    padding-top: 6rem;
     padding-bottom: 0.1rem;
     background-color: #181818;
     color: white;
@@ -8,7 +7,6 @@ footer {
 }
 
 footer hr {
-    width: 99%;
     color: #444444;
 }
 
@@ -22,15 +20,20 @@ footer .container .top {
 }
 
 footer .container .top .side {
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin: 6rem 4rem 2rem 4rem;
 }
 
 footer .container .top .side hr {
-    margin-top: 1rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+footer .container .top .side p {
+    text-align: justify;
 }
 
 footer .container .top h4 {
+    margin-top: 10px;
     margin-left: 2rem;
 }
 
@@ -49,10 +52,30 @@ footer .container .top .side form textarea {
 footer .container .top .side form button {
     width: 80px;
     height: 40px;
-    margin-bottom: 4rem;
 }
 
 footer .container .bottom {
     text-align: center;
 }
 
+footer .container .bottom p {
+    margin: 0.4rem;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        margin-top: 5rem;
+        padding-top: 1rem;
+    }
+
+    footer .container .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .container .top .side {
+        margin: 2rem;
+    }
+}

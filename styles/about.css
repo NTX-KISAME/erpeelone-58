@@ -1,3 +1,8 @@
+#about hr {
+    width: 90%;
+    margin-bottom: 3px;
+}
+
 #about p {
     text-align: justify;
     margin: auto 5%;

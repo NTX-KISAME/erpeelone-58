@@ -2,6 +2,11 @@
     text-align: center;
 }
 
+#pengurus-kelas hr {
+    width: 90%;
+    margin-top: 5px;
+}
+
 #pengurus-kelas .container {
     margin: auto 4%;
     display: flex;
@@ -29,8 +34,13 @@
     padding: 1rem 1rem;
 }
 
-#pengurus-kelas .container .card .card-caption h4, #pengurus-kelas .container .card .card-caption p{
-    padding: 0;
-    margin: 0;
-}
+@media screen and (max-width: 600px) {
+    #pengurus-kelas .container {
+        flex-wrap: wrap;
+    }
 
+    #pengurus-kelas .container .card {
+        width: 45%;
+        flex: 40%;
+    }
+}

@@ -1,3 +1,14 @@
+#galery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#galery hr {
+    width: 90%;
+}
+
 #galery .container {
     margin: 1rem 4rem;
     display: flex;
@@ -8,4 +19,17 @@
     margin: 3px;
     flex: 30%;
     width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    #galery .container {
+        margin: 0;
+        margin-top: 4px;
+        width: 90%;
+    }
+
+    #galery .container img {
+        flex: 100%;
+        width: 100%;
+    }
 }
