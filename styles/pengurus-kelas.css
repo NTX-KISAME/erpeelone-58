@@ -1,38 +1,85 @@
 #pengurus-kelas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-#pengurus-kelas hr {
-    width: 90%;
-    margin-top: 5px;
-    margin-bottom: 5px;
+#pengurus-kelas p {
+    color: rgb(78, 78, 78);
 }
 
 #pengurus-kelas .container {
-    margin: auto 4%;
+    width: 90%;
     display: flex;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-top: 2px solid gray;
 }
 
 #pengurus-kelas .container .card {
     margin: 0.5rem;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
 }
-  
-#pengurus-kelas .container .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+#pengurus-kelas .container .card:first-child {
+    margin-left: 0;
+}
+
+#pengurus-kelas .container .card:last-child {
+    margin-right: 0;
 }
 
 #pengurus-kelas .container .card img {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     width: 100%;
-    height: auto;
 }
 
 #pengurus-kelas .container .card .card-caption {
     padding: 1rem 1rem;
+}
+
+@media screen and (max-width: 865px) {
+    #pengurus-kelas .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #pengurus-kelas .container .card {
+        width: 50%;
+        flex: 45%;
+        display: grid;
+        grid-template-columns: 30% auto;
+        width: 95%;
+    }
+
+    #pengurus-kelas .container .card:nth-child(odd) {
+        margin-left: 0;
+    }
+
+    #pengurus-kelas .container .card:nth-child(even) {
+        margin-right: 0;
+    }
+
+    #pengurus-kelas .container .card .card-caption {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #pengurus-kelas .container .card .card-caption h4 {
+        font-size: larger;
+        margin-bottom: 4px;
+    }
+}
+
+@media screen and (max-width: 803px) {
+    #pengurus-kelas .container {
+        width: 85%;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -43,5 +90,27 @@
     #pengurus-kelas .container .card {
         width: 45%;
         flex: 40%;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    #pengurus-kelas .container {
+        display: block;
+        justify-content: center;
+    }
+    
+    #pengurus-kelas .container .card {
+        display: grid;
+        grid-template-columns: 30% auto;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #pengurus-kelas .container .card .card-caption {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
     }
 }
