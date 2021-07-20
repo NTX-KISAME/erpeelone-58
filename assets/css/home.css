@@ -3,7 +3,7 @@
   --max-height: 100vh;
   --pt: 10rem;
   --pb: 4rem;
-  --bg-img: url('/assets/res/jumbotron/bg.svg');
+  --bg-img: url(assets/res/jumbotron/bg.svg);
   --logo-max-width: 400px;
 }
 
