@@ -1,0 +1,31 @@
+section#galeri div.container div.images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+section#galeri div.container div.images img {
+  flex: 30%;
+  width: 30%;
+  border-radius: 3px;
+}
+
+section#galeri div.container div.images img:not(:nth-child(-n + 6)) {
+  display: none;
+}
+
+section#galeri div.container div.images-all img:not(:nth-child(-n + 6)) {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  section#galeri div.container div.images img {
+    flex: 48%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  section#galeri div.container div.images img {
+    flex: 98%;
+  }
+}

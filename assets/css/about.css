@@ -1,0 +1,7 @@
+section#about .container .row {
+  gap: 2rem;
+}
+
+section#about .container .row p {
+  text-align: justify;
+}

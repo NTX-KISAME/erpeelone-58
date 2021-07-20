@@ -1,0 +1,34 @@
+:root {
+  --max-width: 100vw;
+  --max-height: 100vh;
+  --pt: 10rem;
+  --pb: 4rem;
+  --bg-img: url('/assets/res/jumbotron/bg.svg');
+  --logo-max-width: 400px;
+}
+
+section#home {
+  width: var(--max-width);
+  height: var(--max-height);
+  padding-top: var(--pt);
+  padding-bottom: var(--pb);
+  background-image: var(--bg-img);
+  background-size: cover;
+  background-position: center;
+}
+
+section#home div img {
+  width: var(--logo-max-width);
+}
+
+@media screen and (max-width: 768px) {
+  section#home div img {
+    width: calc(var(--logo-max-width) / 1.2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  section#home div img {
+    width: calc(var(--logo-max-width) / 1.5);
+  }
+}

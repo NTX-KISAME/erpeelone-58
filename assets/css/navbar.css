@@ -1,0 +1,16 @@
+:root {
+  --margin-sm: 1rem
+}
+
+nav {
+  transition: all 0.3s;
+  transition-timing-function: linear;
+}
+
+.navbar-brand {
+  margin-left: var(--margin-sm);
+}
+
+.navbar-toggler {
+  margin-right: var(--margin-sm);
+}

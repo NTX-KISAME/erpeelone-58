@@ -1,0 +1,28 @@
+:root {
+  --section-gap: 5rem;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section:not(#home) {
+  margin-top: var(--section-gap);
+  padding-top: var(--section-gap);
+}
+
+footer {
+  margin-top: calc(var(--section-gap) * 2);
+  background-color: #181818;
+}
+
+textarea {
+  height: 8em;
+}
+
