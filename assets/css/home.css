@@ -38,20 +38,3 @@ section#home div.hero-image div.hero-text p {
     width: calc(var(--logo-max-width) / 1.5);
   }
 }
-
-/* section#home {
-  width: var(--max-width);
-  height: var(--max-height);
-  padding-top: var(--pt);
-  padding-bottom: var(--pb);
-  background-image: var(--bg-img);
-  background-size: cover;
-  background-position: center;
-}
-
-section#home div img {
-  width: var(--logo-max-width);
-}
-
-
-} */
