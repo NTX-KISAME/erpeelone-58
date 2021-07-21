@@ -15,13 +15,3 @@ body {
 section:not(#home) {
   padding-top: var(--section-gap);
 }
-
-footer {
-  margin-top: calc(var(--section-gap) * 2);
-  background-color: #181818;
-}
-
-textarea {
-  height: 8em;
-}
-

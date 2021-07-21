@@ -1,5 +1,54 @@
-section#pengurus-kelas div.card div.card-body p.card-text {
-  font-size: 0.98rem;
-  font-weight: 500;
-  color: grey;
+:root {
+  --pk-flex: 32%;
+  --top: 50%;
+  --left: 60%;
+  --translate-y: -50%;
+}
+
+section#pengurus-kelas div.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+}
+
+section#pengurus-kelas div.container div.card {
+  flex: var(--pk-flex);
+}
+
+section#pengurus-kelas div.container div.card img {
+  filter: brightness(50%);
+}
+
+section#pengurus-kelas div.container div.card div.card-img-overlay {
+  position: absolute;
+  top: var(--top);
+  left: var(--left);
+  transform: translateY(var(--translate-y));
+}
+
+@media screen and (max-width: 991px) {
+  :root {
+    --pk-flex: 49%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --top: 50%;
+    --left: 43%;
+    --translate-y: -50%;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  :root {
+    --pk-flex: 100%;
+    --left: 60%;
+  }
+}
+
+@media screen and (max-width: 331px) {
+  :root {
+    --left: 43%;
+  }
 }

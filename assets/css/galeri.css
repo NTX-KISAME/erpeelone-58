@@ -1,3 +1,7 @@
+:root {
+  --galeri-flex: 32%
+}
+
 section#galeri div.container div.images {
   display: flex;
   flex-wrap: wrap;
@@ -5,8 +9,8 @@ section#galeri div.container div.images {
 }
 
 section#galeri div.container div.images img {
-  flex: 30%;
-  width: 30%;
+  flex: var(--galeri-flex);
+  width: 33%;
   border-radius: 3px;
 }
 
@@ -19,13 +23,13 @@ section#galeri div.container div.images-all img:not(:nth-child(-n + 6)) {
 }
 
 @media screen and (max-width: 768px) {
-  section#galeri div.container div.images img {
-    flex: 48%;
+  :root {
+    --galeri-flex: 49%
   }
 }
 
 @media screen and (max-width: 425px) {
-  section#galeri div.container div.images img {
-    flex: 98%;
+  :root {
+    --galeri-flex: 100%
   }
 }
