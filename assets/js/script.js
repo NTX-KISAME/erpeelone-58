@@ -19,3 +19,32 @@ moreBtn.addEventListener('click', function () {
     moreBtn.innerHTML = 'Lebih banyak <i class="bi bi-caret-down-fill"></i>';
   }
 });
+
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwQCctICVSKUjp9Cb27aN5a94nfgj08kM37K9NexqP_5DXA94iLcptqFxgIh9YVIpmB-Q/exec';
+const form = document.forms['submit-to-google-sheet'];
+const btnKirim = document.querySelector('.btn-kirim');
+const btnMengirim = document.querySelector('.btn-mengirim');
+const msg = document.querySelector('.msg'); 
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  if (msg.classList != 'd-none') msg.classList.add('d-none');
+  btnKirim.classList.toggle('d-none');
+  btnMengirim.classList.toggle('d-none');
+  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+    .then(response => {
+      console.log('Success!', response);
+      btnKirim.classList.toggle('d-none');
+      btnMengirim.classList.toggle('d-none');
+      msg.classList.toggle('d-none');
+      form.reset();
+      msg.innerHTML = 'Terkirim, Terima Kasih';
+    })
+    .catch(error => {
+      console.error('Error!', error.message);
+      btnKirim.classList.toggle('d-none');
+      btnMengirim.classList.toggle('d-none');
+      msg.classList.toggle('d-none');
+      msg.innerHTML = 'Gagal Mengirim, Coba Lagi';
+    })
+});

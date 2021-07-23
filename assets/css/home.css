@@ -3,7 +3,7 @@
 }
 
 section#home div.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.5)), url("/assets/img/home/hero.svg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.596), rgba(0, 0, 0, 0.5)), url('../img/home/hero.svg');
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

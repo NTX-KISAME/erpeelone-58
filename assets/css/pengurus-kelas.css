@@ -1,8 +1,6 @@
 :root {
-  --pk-flex: 32%;
-  --top: 50%;
-  --left: 60%;
-  --translate-y: -50%;
+  --card-per-row: 6;
+  --card-img-width: 8rem;
 }
 
 section#pengurus-kelas div.container {
@@ -12,43 +10,56 @@ section#pengurus-kelas div.container {
 }
 
 section#pengurus-kelas div.container div.card {
-  flex: var(--pk-flex);
+  flex: calc((100% / var(--card-per-row)) - 1rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  transition: all 0.3s;
 }
 
-section#pengurus-kelas div.container div.card img {
-  filter: brightness(50%);
+section#pengurus-kelas div.container div.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 
-section#pengurus-kelas div.container div.card div.card-img-overlay {
-  position: absolute;
-  top: var(--top);
-  left: var(--left);
-  transform: translateY(var(--translate-y));
+section#pengurus-kelas div.container div.card img.card-img-top {
+  width: var(--card-img-width);
+  margin-top: 1.8rem;
 }
 
-@media screen and (max-width: 991px) {
+section#pengurus-kelas div.container div.card div.card-body {
+  text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
   :root {
-    --pk-flex: 49%;
+    --card-per-row: 3;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 556px) {
   :root {
-    --top: 50%;
-    --left: 43%;
-    --translate-y: -50%;
+    --card-per-row: 2;
   }
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 385px) {
   :root {
-    --pk-flex: 100%;
-    --left: 60%;
+    --card-per-row: 1;
+    --card-img-width: 6rem;
   }
-}
 
-@media screen and (max-width: 331px) {
-  :root {
-    --left: 43%;
+  section#pengurus-kelas div.container div.card {
+    flex-direction: row;
+  }
+
+  section#pengurus-kelas div.container div.card img.card-img-top {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  section#pengurus-kelas div.container div.card div.card-body {
+    text-align: start;
   }
 }

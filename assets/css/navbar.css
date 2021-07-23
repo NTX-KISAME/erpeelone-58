@@ -14,3 +14,9 @@ nav {
 .navbar-toggler {
   margin-right: var(--margin-sm);
 }
+
+@media screen and (max-width: 991px) {
+  nav div.other-nav {
+    border-top: 1px solid;
+  }
+}

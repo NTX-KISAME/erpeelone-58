@@ -1,10 +1,6 @@
 :root {
-  --section-gap: 10rem;
-}
-
-html,
-body {
-  overflow-x: hidden;
+  --section-gap: 5rem;
+  --section-padding-top: 5rem;
 }
 
 * {
@@ -12,6 +8,19 @@ body {
   margin: 0;
 }
 
+html,
+body {
+  overflow-x: hidden;
+  display: grid;
+  gap: var(--section-gap);
+}
+
 section:not(#home) {
-  padding-top: var(--section-gap);
+  padding-top: var(--section-padding-top);
+}
+
+@media screen and (max-width: 767px){
+  :root {
+    --section-gap: 2.5rem;
+  }
 }

@@ -1,16 +1,16 @@
 footer {
-  margin-top: calc(var(--section-gap));
+  margin-top: calc(var(--section-gap) * 2);
   background-color: #181818;
 }
 
-textarea {
-  height: 8em;
-}
-
-footer div.container div.row {
-  gap: 2rem;
-}
-
-footer div.container div.row {
+footer div.container {
   text-align: justify;
+}
+
+footer div.container {
+  gap: 4rem;
+}
+
+footer div.container form textarea {
+  height: 8em;
 }
