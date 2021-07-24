@@ -15,8 +15,10 @@ moreBtn.addEventListener('click', function () {
   imgs.classList.toggle('images-all');
   if (moreBtn.innerHTML.startsWith('Lebih banyak')) {
     moreBtn.innerHTML = 'Lebih sedikit <i class="bi bi-caret-up-fill"></i>';
+    moreBtn.removeAttribute('href');
   } else {
     moreBtn.innerHTML = 'Lebih banyak <i class="bi bi-caret-down-fill"></i>';
+    moreBtn.setAttribute('href', '#galeri');
   }
 });
 
