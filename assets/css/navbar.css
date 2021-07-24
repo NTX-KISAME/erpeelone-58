@@ -17,7 +17,7 @@ nav {
 
 @media screen and (max-width: 991px) {
   nav div.other-nav {
-    border-top: 1px solid;
+    border-top: 1px solid #6c757d;
     margin-top: 3px;
     padding-top: 3px;
   }
