@@ -10,6 +10,8 @@ section#galeri div.container div.images {
 section#galeri div.container div.images img {
   flex: var(--galeri-flex);
   width: 33%;
+  height: auto;
+  align-self: flex-start;
   border-radius: 3px;
 }
 
