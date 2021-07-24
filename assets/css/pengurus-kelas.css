@@ -15,6 +15,7 @@ section#pengurus-kelas div.container div.card {
   justify-content: center;
   align-items: center;
   padding-bottom: 1rem;
+  background: #f0f0f0;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   transition: all 0.3s;
 }
