@@ -3,8 +3,9 @@
     "window.zoomLevel": 0,
     "editor.tabSize": 2,
     "editor.lineHeight": 26,
+    "editor.fontFamily": "Source code pro",
     "editor.minimap.enabled": false,
     "workbench.colorTheme": "GitHub Dark",
     "workbench.iconTheme": "vscode-icons",
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    // "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
 }
