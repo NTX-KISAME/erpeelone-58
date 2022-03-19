@@ -7,13 +7,13 @@
   <!-- Menu -->
   <div class="menu-list">
     <div class="menu-item">
-      <router-link class="text-white" to="/about-us"><i class="fa-solid fa-message"></i> Tentang Kami</router-link>
+      <router-link class="text-white" to="/about-us"><i class="fa-solid fa-message"></i> {{ $t('navbar.aboutUs') }}</router-link>
     </div>
     <div class="menu-item">
-      <router-link class="text-white" to="/about-us"><i class="fa-solid fa-user-group"></i> Pengurus Kelas</router-link>
+      <router-link class="text-white" to="/about-us"><i class="fa-solid fa-user-group"></i> {{ $t('navbar.classAdministrator') }}</router-link>
     </div>
     <div class="menu-item">
-      <router-link class="text-white" to="/about-us"><i class="fa-solid fa-images"></i> Galeri</router-link>
+      <router-link class="text-white" to="/about-us"><i class="fa-solid fa-images"></i> {{ $t('navbar.gallery') }}</router-link>
     </div>
   </div>
   <!-- Menu End -->

@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "gallery": "Galeri",
+    "aboutUs": "Tentang Kami",
+    "classAdministrator": "Pengurus Kelas"
+  },
+  "homeView": {
+    "homeTitle": "XI RPL 1 ERPEELONE",
+    "homeSubtitle": "Kelas 58 dari SKENSA, Kami bangga dengan kreativitas kami, Manusia kompetitive"
+  },
+  "aboutView": {
+    "aboutTitle": "Tentang Kami",
+    "aboutSecTitle": "XI RPL 1",
+    "aboutSubtitle": "Halo, salam kenal dari kami. XI RPL 1 adalah salah satu kelas 11 di SMK Negeri 1 Denpasar dengan kompetensi keahlian Rekayasa Perangkat Lunak. Kami berterima kasih karena telah berkunjung ke website kami. Website ini hanya sekedar dokumentasi dan pengenalan lebih dalam kelas kami. Jika kalian punya kesan, pesan, kritik atau saran untuk kami kalian bisa mengirimkannya lewat form di paling bawah website ini. Selamat berkunjung dan terima kasih.",
+    "aboutRegards": "-Salam, Erpeelone"
+  }
+}
