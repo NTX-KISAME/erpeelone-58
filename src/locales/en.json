@@ -1,0 +1,17 @@
+{
+  "navbar": {
+    "gallery": "Gallery",
+    "aboutUs": "About us",
+    "classAdministrator": "Class Administrator"
+  },
+  "homeView": {
+    "homeTitle": "XI RPL 1 ERPEELONE",
+    "homeSubtitle": "Class 58 of SKENSA, We Proud of Our Creativity, Competitive Human"
+  },
+  "aboutView": {
+    "aboutTitle": "About Us",
+    "aboutSecTitle": "XI RPL 1",
+    "aboutSubtitle": "Hello, greetings from us. XI RPL 1 is one of the 11th graders at SMK Negeri 1 Denpasar with the competency of Software Engineering expertise. We thank you for visiting our website. This website is just a documentation and a deeper introduction to our class. If you have impressions, messages, criticisms or suggestions for us, you can send them via the form at the bottom of this website. Welcome and thank you.",
+    "aboutRegards": "-Regards, Erpeelone"
+  }
+}
