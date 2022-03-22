@@ -1,7 +1,6 @@
 <template>
-  <!-- AboutUs Content -->
+  <!-- About Us View -->
   <div class="aboutUsPage">
-    <!-- AboutUs Background -->
     <div class="vid-container">
       <video src="../../assets/about-us.mp4" class="vid-bg" autoplay loop></video>
     </div>
@@ -30,24 +29,24 @@ export default {
 
 <style scoped>
 .vid-container {
-  @apply absolute bg-neutral-900;
+  @apply absolute min-h-screen bg-neutral-900;
   z-index: -1;
 }
 .vid-bg {
-  @apply w-screen h-screen object-cover opacity-80
+  @apply h-screen w-screen object-cover opacity-80
 }
 .aboutUsPage {
-  @apply h-screen flex
+  @apply flex h-screen items-stretch
 }
 .title-box {
   @apply text-white text-2xl
 }
 .content-wrap {
-  @apply flex pt-16
+  @apply flex items-center ml-40
 }
 .content-left {
-  @apply flex flex-col pt-36 pl-44;
-  width: 45rem;
+  @apply flex flex-col justify-start content-center;
+  width: 35rem;
   line-height: 1.3rem !important;;
 }
 .subtitle-box {

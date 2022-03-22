@@ -1,0 +1,44 @@
+{
+  "classAdministrator": [{
+    "name": "Chesa",
+    "role": "Ketua Kelas",
+    "profileImage": "https://erpeelone58.vercel.app/assets/img/pengurus-kelas/Chesa.svg",
+    "profileDescription": "",
+    "githubLink": "https://github.com/ChesaSS"
+  },
+    {
+      "name": "Santi",
+      "role": "Wakil Ketua Kelas",
+      "profileImage": "https://erpeelone58.vercel.app/assets/img/pengurus-kelas/Santi.svg",
+      "profileDescription": "",
+      "githubLink": "https://github.com/Nareswari345"
+    },
+    {
+      "name": "Dyah",
+      "role": "Sekretaris 1 (Utama)",
+      "profileImage": "https://erpeelone58.vercel.app/assets/img/pengurus-kelas/Dyah.svg",
+      "profileDescription": "",
+      "githubLink": ""
+    },
+    {
+      "name": "Gung Adi",
+      "role": "Sekretaris 2 (cadangan)",
+      "profileImage": "https://erpeelone58.vercel.app/assets/img/pengurus-kelas/Gung-Adi.svg",
+      "profileDescription": "",
+      "githubLink": ""
+    },
+    {
+      "name": "Adit",
+      "role": "Bendahara 1 (Utama)",
+      "profileImage": "https://erpeelone58.vercel.app/assets/img/pengurus-kelas/Adit.svg",
+      "profileDescription": "",
+      "githubLink": ""
+    },
+    {
+      "name": "Candra",
+      "role": "Bendahara 2 (cadangan)",
+      "profileImage": "https://erpeelone58.vercel.app/assets/img/pengurus-kelas/Candra.svg",
+      "profileDescription": "",
+      "githubLink": ""
+    }]
+}

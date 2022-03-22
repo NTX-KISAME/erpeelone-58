@@ -2,6 +2,7 @@
   <navbar/>
   <home/>
   <aboutUs/>
+  <administration/>
 </template>
 
 <script>
@@ -9,13 +10,15 @@
 import navbar from "@/components/navbar";
 import home from "@/components/home";
 import aboutUs from "@/components/aboutus";
+import administration from "@/components/administration";
 
 export default {
   name: 'HomeView',
   components: {
     navbar,
     home,
-    aboutUs
+    aboutUs,
+    administration
   }
 }
 </script>

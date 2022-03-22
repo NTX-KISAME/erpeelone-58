@@ -36,7 +36,7 @@ export default {
 
 <style scoped>
 .navbar {
-  @apply fixed top-0 items-center flex w-screen justify-between p-4
+  @apply fixed top-0 items-center flex w-screen justify-between p-4 z-10
 }
 .brand {
   @apply flex justify-start
